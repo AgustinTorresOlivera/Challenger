@@ -1,0 +1,122 @@
+.btn {
+    border: 3px black solid;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 900;
+    padding: 0 20px;
+    height: 40px;
+    text-transform: uppercase;
+  }
+  
+  #precio {
+    display: flex;
+    margin-top: 60px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .product {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+  .product > h2 {
+    margin-top: 15px;
+  }
+  
+  .product > ol {
+    margin: 15px 0;
+  }
+  
+  .product > ol > li {
+    padding: 5px 0;
+  }
+  
+  .product > button {
+    border: 0;
+    background-color: #faec50;
+    margin: 15px 0;
+    font-weight: 400;
+  }
+  
+  .product > button:hover {
+    background-color: #b3baff;
+    transition: background-color 1s;
+  }
+  
+  @media (max-width: 800px) {
+    #precio {
+      flex-direction: column;
+    }
+    .product {
+      max-width: 300px;
+      margin: 0 auto;
+      margin-bottom: 10px;
+      width: 100%; 
+    }
+  }
+  .imagen{
+    width: 100%;
+    height: 80%;
+  }
+  .imagenDerechaIzquierda{
+    display: flex;
+    justify-content: space-between;
+  }
+  .izquierZone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  .ilustration{
+    width: 100%;
+    height: 100%;
+  }
+ .boton{
+    width: 70%;
+    height: 20%;
+    margin-right: 33%;
+    margin-top: 5%;
+ }
+ .techZone{
+    width: 100%;
+    height: 100%;
+ }
+ .bttn{
+    color:rgb(216, 212, 212);
+    border-radius: 11px;
+    height: 40px;
+    width: 100%;
+    border: 1px rgb(216, 212, 212) solid;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #176FEB 0%, #FF80FF 100%);
+ }
+ div.producto{
+    margin:3%;
+    box-shadow: 0, 4px 8px 0;
+    float: left;
+    width: 360;
+
+ }
+
+ div.producto img{
+    width: 100%;
+    height: auto;
+ }
+
+ div.pie{
+    text-align: start;
+    border: 1px rgb(216, 212, 212) solid;
+    border-bottom-right-radius: 11px;
+ }
+ 
+
